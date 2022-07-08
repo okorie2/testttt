@@ -6,7 +6,7 @@ import Fan from "./fan";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Fan />
     </div>
   );
