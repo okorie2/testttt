@@ -6,7 +6,7 @@ import Card from "../../components/card";
 import Sidenav from "../../components/layout";
 import { BusStyle } from "../../styles/pages/busStyles";
 
-export default function Fan() {
+export default function Bus() {
   const router = useRouter();
   const handleClick = (val: number) => {
     router.push(`/bus/${val}`);

@@ -6,7 +6,7 @@ import Sidenav from "../../components/layout";
 import { FansStyle } from "../../styles/pages/fanStyles";
 import { HouseStyle } from "../../styles/pages/houseStyles";
 
-export default function Fan() {
+export default function House() {
   const router = useRouter();
   const handleClick = (val: number) => {
     router.push(`/house/${val}`);
